@@ -16,6 +16,7 @@ Take a look at the following code:
 ```
 
 Explain why line 5 and line 8 output different numbers.
+Because inside the code, x is declared globally. so it is using the global variable. while in line 8 it logs the variable from the function. 
 
 ## Question 2
 
@@ -34,6 +35,10 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+10
+20 
+because inside the function y is declared but not called.
+i checked the internet. it says results will be undefined because y is defined inside teh function scoop.  
 
 ## Question 3
 
@@ -62,3 +67,6 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+9
+{x: 10}
+x is a primitive (number) passed by value - modifying it inside f1() doesn't affect the original. y is an object passed by reference - modifying its property inside f2() changes the original object.
