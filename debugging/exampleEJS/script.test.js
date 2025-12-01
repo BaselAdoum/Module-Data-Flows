@@ -1,5 +1,5 @@
 //check import works
-import exampleFunction from './script';
+const exampleFunction = require('./script.js');
 // check these functions exist
 describe('Basic test', () => {
   test('exampleFunction exists', () => {

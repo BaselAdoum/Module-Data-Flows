@@ -3,5 +3,5 @@ function exampleFunction() {
 return true
 }
 
-export default exampleFunction;
+module.export = exampleFunction;
 
