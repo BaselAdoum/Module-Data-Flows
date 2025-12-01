@@ -1,0 +1,24 @@
+/* Basic styles */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Make image fit screen */
+img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    display: block; /* Makes margin auto work */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button style - centered */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block; /* Makes it a block element */
+    margin: 0 auto; /* Auto margins center it */
+}
